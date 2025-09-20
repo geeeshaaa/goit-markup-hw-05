@@ -543,7 +543,7 @@ a:focus {
 }
 
 /*  ------------------------------  Modal window ------------------------ */
-.modal-overlay {
+/* .modal-overlay {
   background: var(--navy-blue-modal);
   position: fixed;
   top: 0;
@@ -575,8 +575,7 @@ a:focus {
   background: var(--dairy);
   /* max-width: 480px;
   max-height: 80%;
-  overflow-y: auto; */
-  position: absolute;
+  overflow-y: auto; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -586,7 +585,7 @@ a:focus {
   height: 24px;
   border-radius: 100%;
   
-  /* fill: var(--cornflower); */
+   fill: var(--cornflower); 
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
   display: block;
@@ -684,13 +683,13 @@ a:focus {
   font-weight: 400;
   font-size: 12px;
 
-  /* line-height: 14px; */
+  /* line-height: 14px; 
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: var(--light-slate);
 }
 .modal-privacy-link {
-  /* line-height: 16px; */
+  /* line-height: 16px; 
   line-height: 1.33333;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -827,9 +826,9 @@ a:focus {
 
 .modal-icon-box {
   position: relative;
-}
+} */
 
-/* +стилі */
+/* style */
 .modal-field {
   font-weight: 400;
   font-size: 12px;
