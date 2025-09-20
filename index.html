@@ -495,9 +495,35 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe-box">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-subscribe-form" name="email_form">
+            <label class="footer-subscribe-label">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="footer-subscribe-btn" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-btn-svg" width="24" height="24">
+                <use
+                  class="footer-subscribe-btn-use"
+                  href="./images/icons.svg#icon-send"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+
       </div>
+   
     </footer>
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-btn-close">
           <svg class="modal-close-icon" width="8" height="8">
@@ -543,7 +569,7 @@
           </div>
           <div class="modal-field">
             <label for="user-comment" class="modal-label"
-              ><span class="modal-subtitle">Comemnt</span>
+              ><span class="modal-subtitle">Comment</span>
               <textarea
                 class="modal-text"
                 name="user-comment"
@@ -552,18 +578,28 @@
               ></textarea>
             </label>
           </div>
-          <div class="modal-field privacy">
+
+          <div class="modal-checkbox-container">
             <input
+              class="modal-visual visually-hidden"
+              id="user-privacy"
+              value="false"
               type="checkbox"
-              class="modal-check"
-              name="modal-check"
-              id="modal-check"
+              name="user-privacy"
             />
-            <label class="modal-accept-label" for="modal-check">
-              I accept the terms and conditions of the
-              <a href="" class="modal-privacy-link"> Privacy Policy </a>
+            <label class="modal-field" for="user-privacy"
+              ><span class="span-modal">
+                <svg class="checkbox-svg-icon" width="10" height="8">
+                  <use
+                    class="checkbox-icon"
+                    href="./images/icons.svg#icon-check"
+                  ></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="check-link">Privacy Policy</a>
             </label>
           </div>
+
           <button type="submit" class="modal-btn main-btn">Send</button>
         </form>
       </div>
