@@ -782,9 +782,7 @@ a:focus {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
-  /* box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12); */
-
+cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
